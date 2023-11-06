@@ -11,6 +11,11 @@ namespace ArenaFighter
 		/// The name of this program
 		/// </summary>
 		public const string ProgramName = "The Arena fighter 2000";
+
+		/// <summary>
+		/// A instans of Random class for handle and creating of randomly values
+		/// </summary>
+		public static Random random = new Random();
 		
 		/// <summary>
 		/// The start point of this program / game
